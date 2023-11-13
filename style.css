@@ -1,0 +1,46 @@
+/* Reset CSS for basic styling */
+body, h1, h2, p, img {
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling the header */
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Styling the problem and solution sections */
+.problem, .solution {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.problem-info, .solution-info {
+    flex: 1;
+    padding: 20px;
+}
+
+.problem-image, .solution-image {
+    flex: 1;
+    text-align: center;
+}
+
+/* Styling the personal challenge section */
+.personal-challenge {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+img {
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 50%;
+    border: solid 2px;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
